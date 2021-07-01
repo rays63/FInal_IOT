@@ -765,7 +765,7 @@ img {
 
   .menu-btn{
     position: absolute;
-    background: url(image/menu.png)no-repeat;
+    background: url(../image/menu.png)no-repeat;
     background-size: 30px;
     background-position: center;
     width: 40px;

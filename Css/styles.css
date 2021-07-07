@@ -21,6 +21,7 @@ header a span{
 .material-icons{
   font-size: 35px;
 }
+
 .main{
   position: relative;
   width: 100%;
@@ -206,6 +207,19 @@ body{
   transform: translateX(-50%);
 }
 
+.about{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:url(../image/bg.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .about .content{
   position: relative;
   width: 100%;
@@ -327,6 +341,53 @@ body{
   width: 61%;
   background: #e3a324;
 }
+
+.tables{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:hover{background-color: #ddd;}
+
+th {
+  background-color: #666666;
+  color: white;
+}
+/*#company {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#company td, #company th {
+  border: 1px solid #;
+  padding: 8px;
+}
+
+#company tr:nth-child(even){background-color: #;}
+
+#company tr:hover {background-color: #ddd;}
+
+#company th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}*/
 
 iframe{
   margin-right: auto;
@@ -453,6 +514,10 @@ img {
   font-size: 2em;
   font-weight: 800;
   margin-bottom: 20px;
+}
+.Intro .content .col-right li{
+    font-size: 1.5em;
+  font-weight: 500;
 }
 
 .Intro .content .col-right .paragraph-text{

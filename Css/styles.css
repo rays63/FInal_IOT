@@ -326,15 +326,16 @@ body{
   background: #e3a324;
 }
 
-/*.discuss .content .col-right .bar .twozero:before{
-  width: 80%;
-  background: #30dd6d;
+.video{
+  
 }
-
-.discuss .content .col-right .bar .one:before{
-  width: 75%;
-  background: #6d7eb8;
-}*/
+iframe{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .Intro .content{
   display: flex;

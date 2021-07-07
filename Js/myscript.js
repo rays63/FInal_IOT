@@ -34,6 +34,7 @@ scrollBtn.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
 });
 
+//news slider
 var slideIndex = 0;
 carousel();
 
@@ -46,8 +47,9 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 5000); // Change image every 2 seconds
 }
+
 
 var slideIndex = 1;
 showSlides(slideIndex);

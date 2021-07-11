@@ -1,0 +1,137 @@
+.discuss{
+  background: #3b3b3b;
+}
+
+.discuss .para{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+li{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.discuss .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.discuss .content .col-left{
+  position: relative;
+  width: 46%;
+}
+
+.discuss .content .col-left .content-title{
+  margin-bottom: 20px;
+}
+
+.discuss .content .col-right{
+  position: relative;
+  width: 46%;
+}
+
+.discuss .content .col-right .bar{
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.discuss .content .col-right .bar .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.discuss .content .col-right .bar .info span{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.discuss .content .col-right .bar .line{
+  position: relative;
+  width: 100%;
+  height: 15px;
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.discuss .content .col-right .bar .line:before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.discuss .content .col-right .bar .seven:before{
+  width: 67%;
+  background: #e45126;
+}
+
+.discuss .content .col-right .bar .eight:before{
+  width: 64%;
+  background: #0c73b8;
+}
+
+.discuss .content .col-right .bar .nine:before{
+  width: 61%;
+  background: #e3a324;
+}
+
+.tables{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tables{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #ddd6d6
+}
+
+tr:hover{background-color: #ddd;}
+
+th {
+  background-color: #666666;
+  color: white;
+}
+
+iframe{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

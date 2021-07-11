@@ -50,7 +50,6 @@ function carousel() {
   setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -77,6 +76,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+// ------------------------------
 
 //javascript for reveal website elements on scroll
 window.addEventListener("scroll", reveal);

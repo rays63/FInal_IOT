@@ -11,7 +11,7 @@
 	}
 	else{
 		$stmt = $conn->prepare("insert into contactme(name, email, message) values(?, ?, ?)");
-		$stmt->bind_param("ssssi",$name,$email,$message);
+		$stmt->db2_bind_param("ssssi",$name,$email,$message);
 		$stmt->execute();
 		echo "send Succesfully.....";
 		$stmt->close();
